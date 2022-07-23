@@ -1,0 +1,17 @@
+.wrap{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ball{ /* div를 공 모양으로 만들기 */
+    display: inline-block; /* 가로로 출력되게 */
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px; /* 10,20,...해보며 원안의 숫자값 라인 맞추기 */
+    margin-left: 10px;
+}
